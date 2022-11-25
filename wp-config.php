@@ -79,6 +79,8 @@ $table_prefix = 'store_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
+
+define('UPLOADS', 'uploads');
 define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
